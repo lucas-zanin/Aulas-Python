@@ -1,0 +1,14 @@
+a=[]
+b=[]
+c=[]
+
+for i in range(20):
+	n=int(input('numero 1: '))
+	a.append(n)
+for i in range(4):
+	n=int(input('numero 2: '))
+	b.append(n)
+for i in range(20):
+	c.append(a[i]-b[i])
+for i in c:
+	print(i)
