@@ -1,6 +1,7 @@
 a=[]
 b=[]
 c=[]
+
 for i in range(4):
 	n=int(input('numero: '))
 	a.append(n)
