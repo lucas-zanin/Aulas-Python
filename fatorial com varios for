@@ -1,8 +1,12 @@
+Ler uma matriz A do tipo vetor com 15 elementos. Construir uma matriz B de mesmo
+tipo, sendo que cada elemento da matriz B seja a fatorial do elemento correspondente
+da matriz A
+
 a=[]
 b=[]
 c=[]
 
-for i in range(4):
+for i in range(15):
 	n=int(input('numero: '))
 	a.append(n)
 	fatorial=1
